@@ -20,7 +20,7 @@ module.exports = {
     return regex.test(value);
   },
   isValidName: (value) => {
-    const regex = /^[A-Za-z]+$/;
+    const regex = /^[a-zA-Z]+$/;
     return regex.test(value);
   },
   youngerThan10Years: (dob) => {
